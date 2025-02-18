@@ -1,5 +1,5 @@
 import sys
-import logging
+from src.logger import logging
 """
 The sys module in Python provides functions and variables that interact with the Python runtime system. It is commonly used in exception handling to retrieve detailed error information.
 """
@@ -19,4 +19,4 @@ class Coustom_exception(Exception):
 
   def __str__(self):
     return self.error_message
-  
+
